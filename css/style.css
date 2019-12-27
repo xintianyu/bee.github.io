@@ -1,0 +1,166 @@
+/* Header Section */
+.intro {
+	display: table;
+	width: 100%;
+	padding: 0;
+	margin-bottom: 80px;
+	background: url(../img/intro-bg.jpg) no-repeat right top;
+	background-color: #e5e5e5;
+}
+.intro .fa {
+	font-size: 94px;
+	margin-bottom: 40px;
+	color: #fff;
+}
+.intro p {
+	color: #444;
+	margin: 10px 0 20px 0;
+	font-size: 22px;
+}
+header .intro-text {
+	padding-top: 250px;
+	padding-bottom: 200px;
+}
+/* Portfolio Section */
+#portfolio {
+	padding: 40px 0 100px 0;
+}
+.categories {
+	margin-bottom: 80px;
+}
+ul.cat li {
+	display: inline-block;
+}
+ol.type li {
+	display: inline-block;
+	margin-right: 20px;
+}
+ol.type li a {
+	color: #444;
+	font-size: 14px;
+	padding: 10px 20px;
+	border: 2px solid #444;
+	border-radius: 0;
+	text-transform: uppercase;
+}
+ol.type li a.active {
+	background: #444;
+	color: #eee;
+}
+ol.type li a:hover {
+	background: #444;
+	color: #eee;
+}
+.isotope-item {
+	z-index: 2
+}
+.isotope-hidden.isotope-item {
+	z-index: 1
+}
+.isotope-item {
+	margin-right: -1px;
+	backface-visibility: hidden;
+	padding: 0 10px;
+}
+
+.portfolio-item .hover-bg {
+	overflow: hidden;
+	position: relative;
+}
+.hover-bg .hover-text {
+	position: absolute;
+	text-align: center;
+	margin: 0 auto;
+	color: #333;
+	background: rgba(255, 255, 255, 0.75);
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+}
+.hover-bg .hover-text .overlay-caption {
+	height: 100%;
+	width: 100%;
+}
+.hover-bg .hover-text .overlay-caption .overlay-content {
+	margin: 100px;
+}
+.hover-bg:hover .hover-text {
+	opacity: 1;
+}
+/* Contact Section */
+#contact {
+	padding: 60px 0 60px 0;
+	background: #262626;
+}
+#contact h2 {
+	font-weight: 400;
+	color: #777;
+	margin: 60px 0;
+}
+#contact img {
+	width: 140px;
+	margin: 5px 30px 10px 0;
+}
+#contact p {
+	color: #666;
+	margin-bottom: 20px;
+	line-height: 24px;
+}
+#contact .social {
+	margin-top: 40px;
+}
+#contact .social ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+#contact .social i.fa {
+	font-size: 26px;
+	padding: 4px;
+	color: #777;
+}
+#contact .social i.fa:hover {
+	color: #eee;
+}
+#contact form {
+	padding: 0;
+}
+#contact .text-danger {
+	color: #cc0033;
+	text-align: left;
+}
+label {
+	font-size: 12px;
+	font-weight: 400;
+	float: left;
+}
+#contact .form-control {
+	display: block;
+	width: 100%;
+	padding: 6px 12px;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 1.42857143;
+	color: #aaa;
+	background-color: #444;
+	background-image: none;
+	border: 0;
+	border-radius: 0;
+}
+#contact .form-control:focus {
+	border-color: #999;
+}
+#contact .btn-default {
+	font-weight: 400;
+	color: #666;
+	background-color: transparent;
+	border: 2px solid #666;
+	padding: 10px 20px;
+	margin: 0;
+	font-size: 15px;
+	border-radius: 0;
+	margin-top: 20px;
+}
+#contact .btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active {
+	background-color: #666;
+	color: #999;
+}
